@@ -48,14 +48,14 @@ import org.bukkit.potion.PotionEffectType;
 import org.bukkit.scoreboard.Scoreboard;
 import org.bukkit.util.Vector;
 
-public class DummyPlayer implements Player {
+public class Proxy implements Player {
 
     private Server server;
     private double x, y, z;
     private World world;
     private String name;
     
-    public DummyPlayer(String string, Server server, World world, int x, int y, int z) {
+    public Proxy(String string, Server server, World world, int x, int y, int z) {
 	    this.server = server;
 	    this.world = world;
 	    this.x = x;
